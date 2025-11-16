@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log
+
+# React build
+build/
+dist/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS/Editor junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
