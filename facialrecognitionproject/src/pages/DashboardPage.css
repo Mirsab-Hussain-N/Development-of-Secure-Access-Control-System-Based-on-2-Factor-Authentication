@@ -1,0 +1,48 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+.dashboard-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dashboard-actions button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dashboard-actions button:hover {
+  opacity: 0.9;
+}
+
+.logout-btn {
+  background-color: #ff4b5c;
+  color: white;
+}
